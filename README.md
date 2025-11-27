@@ -1,81 +1,67 @@
 <div align="center">
+  
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=0052D4,4364F7,6FB1FC&height=250&section=header&text=Willian%20Rupert&fontSize=80&fontAlignY=35&animation=fadeIn&fontColor=ffffff&desc=Computer%20Science%20%7C%20CIn-UFPE&descSize=20&descAlign=50&descAlignY=60" width="100%"/>
 
-<!-- HEADER: LIQUID BLUE PRO
-Usamos um gradiente 'customColorList' que vai do Azul Royal Profundo (0052D4)
-passando pelo Azul Aço (4364F7) até o Ciano Claro (6FB1FC).
-A animação 'soft' dá o efeito líquido suave. -->
+  <div style="margin-top: -30px; position: relative; z-index: 10;">
+    <p>
+      <a href="https://linkedin.com/in/SEU-LINKEDIN-AQUI">
+        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="28"/>
+      </a>
+      &nbsp;
+      <a href="mailto:seu-email@cin.ufpe.br">
+        <img src="https://img.shields.io/badge/Email-2b3137?style=for-the-badge&logo=gmail&logoColor=white" height="28"/>
+      </a>
+      &nbsp;
+      <a href="https://SEU-SITE-OU-LINKTREE.com">
+        <img src="https://img.shields.io/badge/Portfolio-4364F7?style=for-the-badge&logo=google-chrome&logoColor=white" height="28"/>
+      </a>
+    </p>
+  </div>
 
-<img src="https://www.google.com/search?q=https://capsule-render.vercel.app/api%3Ftype%3Dwaving%26color%3Dgradient%26customColorList%3D0052D4,4364F7,6FB1FC%26height%3D250%26section%3Dheader%26text%3DWillian%2520Rupert%26fontSize%3D70%26fontAlignY%3D40%26animation%3DfadeIn%26fontColor%3Dffffff%26desc%3DComputer%2520Science%2520%257C%2520CIn-UFPE%26descSize%3D20%26descAlign%3D50%26descAlignY%3D60" width="100%"/>
+  <br>
 
-<!-- ÍCONES SOCIAIS MINIMALISTAS (Estilo iOS Button) -->
-
-<a href="https://linkedin.com/in/SEU-LINKEDIN">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/LinkedIn-0077B5%3Fstyle%3Dfor-the-badge%26logo%3Dlinkedin%26logoColor%3Dwhite" />
-</a>
-<a href="mailto:SEU-EMAIL@cin.ufpe.br">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Email-2b3137%3Fstyle%3Dfor-the-badge%26logo%3Dgmail%26logoColor%3Dwhite" />
-</a>
-
-</div>
-
-<!-- PROJETOS: ESTILO GLASS DARK -->
-
-<!-- Títulos em Azul Apple (007AFF) e ícones em Ciano (5AC8FA) -->
-
-<div align="center">
-<h3>⚡ Projetos Recentes</h3>
-
-
-
-
-
-<table>
-<tr>
-<td align="center" width="50%">
-<a href="https://github.com/willianrupert/NOME-DO-PROJETO-1">
-<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dwillianrupert%26repo%3DNOME-DO-PROJETO-1%26theme%3Dtransparent%26hide_border%3Dtrue%26title_color%3D007AFF%26text_color%3Dced6e0%26icon_color%3D5AC8FA" />
-</a>
-</td>
-<td align="center" width="50%">
-<a href="https://github.com/willianrupert/NOME-DO-PROJETO-2">
-<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dwillianrupert%26repo%3DNOME-DO-PROJETO-2%26theme%3Dtransparent%26hide_border%3Dtrue%26title_color%3D007AFF%26text_color%3Dced6e0%26icon_color%3D5AC8FA" />
-</a>
-</td>
-</tr>
-</table>
-</div>
-
-<!-- ANALYTICS: VISUAL LIMPO E PROFISSIONAL -->
-
-<div align="center">
-<h3>📊 Performance</h3>
-
-<!-- STATS GERAIS -->
-
-<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3Dwillianrupert%26show_icons%3Dtrue%26theme%3Dtransparent%26hide_border%3Dtrue%26title_color%3D007AFF%26text_color%3Dced6e0%26icon_color%3D5AC8FA%26count_private%3Dtrue" height="150" />
-
-<!-- LINGUAGENS (DONUT CHART) -->
-
-<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3Dwillianrupert%26layout%3Ddonut%26theme%3Dtransparent%26hide_border%3Dtrue%26title_color%3D007AFF%26text_color%3Dced6e0" height="150" />
+  <img src="https://skillicons.dev/icons?i=python,js,react,cpp,git,github&theme=dark&perline=6" />
 
 </div>
 
-<!-- STREAK (Cor Azul Elétrico para combinar com o tema) -->
+<br>
+<br>
 
 <div align="center">
-<img src="https://www.google.com/search?q=https://github-readme-streak-stats.herokuapp.com/%3Fuser%3Dwillianrupert%26theme%3Dtransparent%26hide_border%3Dtrue%26ring%3D007AFF%26fire%3D007AFF%26currStreakLabel%3D5AC8FA%26dates%3Dced6e0%26sideNums%3Dced6e0" />
+  
+  <h3>
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=25&pause=1000&color=6FB1FC&center=true&vCenter=true&width=435&lines=⚡+Projetos+%26+Métricas" alt="Typing SVG" />
+  </h3>
+  
+  <table border="0">
+    <tr>
+      <td width="50%" align="center" valign="top">
+        <a href="https://github.com/willianrupert/NOME-DO-REPO-1">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=willianrupert&repo=NOME-DO-REPO-1&theme=transparent&hide_border=false&border_radius=10&border_color=4364F7&title_color=6FB1FC&text_color=ffffff&icon_color=4364F7&description_lines=2" width="100%" />
+        </a>
+        <br>
+        <a href="https://github.com/willianrupert/NOME-DO-REPO-2">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=willianrupert&repo=NOME-DO-REPO-2&theme=transparent&hide_border=false&border_radius=10&border_color=4364F7&title_color=6FB1FC&text_color=ffffff&icon_color=4364F7&description_lines=2" width="100%" />
+        </a>
+      </td>
+      
+      <td width="50%" align="center" valign="top">
+        <img src="https://github-readme-stats.vercel.app/api?username=willianrupert&show_icons=true&theme=transparent&hide_border=false&border_radius=10&border_color=4364F7&title_color=6FB1FC&text_color=ffffff&icon_color=4364F7&count_private=true&hide_rank=false" width="100%" />
+        <br>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=willianrupert&layout=donut&theme=transparent&hide_border=false&border_radius=10&border_color=4364F7&title_color=6FB1FC&text_color=ffffff" width="100%" />
+      </td>
+    </tr>
+  </table>
 </div>
 
-<!-- TECH STACK (DOCK) -->
-
 <div align="center">
-<img src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dpython,java,react,html,css,js,git,github,c,linux%26theme%3Ddark%26perline%3D10" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=willianrupert&theme=transparent&hide_border=false&border_radius=10&border_color=4364F7&ring=4364F7&fire=6FB1FC&currStreakLabel=6FB1FC&dates=ffffff&sideNums=ffffff" width="80%" />
 </div>
 
-<!-- SNAKE ANIMATION -->
-
-<!-- Usando raw.githubusercontent para garantir que a imagem carregue -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/willianrupert/willianrupert/output/github-contribution-grid-snake.svg" width="100%" />
+</div>
 
 <div align="center">
-<img src="https://www.google.com/search?q=https://raw.githubusercontent.com/willianrupert/willianrupert/output/github-contribution-grid-snake.svg" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=0052D4,4364F7,6FB1FC&height=120&section=footer" width="100%"/>
 </div>
