@@ -7,15 +7,15 @@
   Busco transformar ideias em experiências digitais fluidas e intuitivas.</p>
 
   <p>
-    <a href="https://linkedin.com/in/SEU-LINKEDIN-AQUI">
+    <a href="https://linkedin.com/in/willianrupert">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="32"/>
     </a>
     &nbsp;
-    <a href="mailto:seu-email@cin.ufpe.br">
+    <a href="mailto:wnrj@cin.ufpe.br">
       <img src="https://img.shields.io/badge/Email-222222?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" height="32"/>
     </a>
     &nbsp;
-    <a href="https://SEU-LINKTREE-OU-PORTFÓLIO.com">
+    <a href="https://willianrupert.github.io">
       <img src="https://img.shields.io/badge/Portfolio-6FB1FC?style=for-the-badge&logo=telescope&logoColor=white" alt="Portfolio" height="32"/>
     </a>
   </p>
