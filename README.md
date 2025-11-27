@@ -1,4 +1,3 @@
-<!-- ─── HEADER ─────────────────────────────────────────────────── -->
 <div align="center">
 
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0052D4,4364F7,6FB1FC&height=260&section=header&text=Willian%20Rupert&fontSize=70&fontAlignY=40&animation=fadeIn&fontColor=ffffff&desc=Computer%20Science%20·%20CIn-UFPE&descSize=22&descAlignY=65" alt="banner" width="100%" />
@@ -34,30 +33,30 @@
 <div align="center" style="display: flex; flex-wrap: wrap; gap: 24px; justify-content: center;">
 
   <div style="width: 300px; text-align: center;">
+    <strong>🪐 NASA Exoplanet LIA</strong><br/>
+    <sub>Visualização interativa de dados de exoplanetas.</sub>
+    <br/><br/>
     <a href="https://exoplanet-lia.streamlit.app/">
       <img src="assets/Nasa.gif" alt="Exoplanet LIA" style="width: 100%; border-radius: 8px;" />
     </a>
-    <br/><br/>
-    <strong>🪐 NASA Exoplanet LIA</strong><br/>
-    <sub>Visualização interativa de dados de exoplanetas.</sub>
   </div>
 
   <div style="width: 300px; text-align: center;">
+    <strong>💻 Projeto IP</strong><br/>
+    <sub>Jogo interativo criado para Introdução à Programação.</sub>
+    <br/><br/>
     <a href="https://github.com/AmandaTrinity/ProjetoIP">
       <img src="assets/ProjetoIP.gif" alt="Projeto IP" style="width: 100%; border-radius: 8px;" />
     </a>
-    <br/><br/>
-    <strong>💻 Projeto IP</strong><br/>
-    <sub>Jogo interativo criado para Introdução à Programação.</sub>
   </div>
 
   <div style="width: 300px; text-align: center;">
+    <strong>🎬 CineMind</strong><br/>
+    <sub>Sistema inteligente de recomendação de filmes.</sub>
+    <br/><br/>
     <a href="https://github.com/lgns-cin/CineMind">
       <img src="assets/CineMind.gif" alt="CineMind" style="width: 100%; border-radius: 8px;" />
     </a>
-    <br/><br/>
-    <strong>🎬 CineMind</strong><br/>
-    <sub>Sistema inteligente de recomendação de filmes.</sub>
   </div>
 
 </div>
@@ -67,8 +66,8 @@
 ## 📊 Estatísticas
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=willianrupert&show_icons=true&theme=transparent&hide_border=true&title_color=6FB1FC&text_color=ffffff&icon_color=6FB1FC" alt="GitHub stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=willianrupert&layout=donut&theme=transparent&hide_border=true&title_color=6FB1FC&text_color=ffffff" alt="Top languages" width="40%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=willianrupert&show_icons=true&theme=transparent&hide_border=true&title_color=6FB1FC&text_color=ffffff&icon_color=6FB1FC" alt="GitHub stats" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=willianrupert&layout=compact&theme=transparent&hide_border=true&title_color=6FB1FC&text_color=ffffff" alt="Top languages" height="150" />
 </div>
 
 <br/>
