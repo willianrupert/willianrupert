@@ -5,7 +5,7 @@
     <tr>
       <td width="33%" align="center" valign="top">
         <a href="https://github.com/lgns-cin/CineMind">
-          <img src=assets/CineMind.gif width="100%" style="border-radius: 15px;" alt="CineMind" />
+          <img src="assets/CineMind.gif" width="100%" style="border-radius: 15px;" alt="CineMind" />
         </a>
         <br>
         <br>
@@ -16,7 +16,7 @@
 
       <td width="33%" align="center" valign="top">
         <a href="https://exoplanet-lia.streamlit.app/">
-          <img src=assets/Nasa.gif" width="100%" style="border-radius: 15px;" alt="Nasa Exoplanet" />
+          <img src="assets/Nasa.gif" width="100%" style="border-radius: 15px;" alt="Nasa Exoplanet" />
         </a>
         <br>
         <br>
@@ -27,7 +27,7 @@
 
       <td width="33%" align="center" valign="top">
         <a href="https://github.com/AmandaTrinity/ProjetoIP">
-          <img src=assets/ProjetoIP.gif" width="100%" style="border-radius: 15px;" alt="Projeto IP" />
+          <img src="assets/ProjetoIP.gif" width="100%" style="border-radius: 15px;" alt="Projeto IP" />
         </a>
         <br>
         <br>
