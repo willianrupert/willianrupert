@@ -74,6 +74,8 @@ A animação 'soft' dá o efeito líquido suave. -->
 
 <!-- SNAKE ANIMATION -->
 
+<!-- Usando raw.githubusercontent para garantir que a imagem carregue -->
+
 <div align="center">
-<img src="https://github.com/willianrupert/willianrupert/blob/output/github-contribution-grid-snake.svg" width="100%" />
+<img src="https://www.google.com/search?q=https://raw.githubusercontent.com/willianrupert/willianrupert/output/github-contribution-grid-snake.svg" width="100%" />
 </div>
