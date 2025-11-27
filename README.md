@@ -33,7 +33,7 @@
 <div align="center" style="display: flex; flex-wrap: wrap; gap: 24px; justify-content: center;">
 
   <div style="width: 300px; text-align: center;">
-    <strong>🪐 NASA Exoplanet LIA</strong><br/>
+    <h3 style="color: #4364F7;">🪐 NASA Exoplanet LIA</h3>
     <sub>Visualização interativa de dados de exoplanetas.</sub>
     <br/><br/>
     <a href="https://exoplanet-lia.streamlit.app/">
@@ -42,7 +42,7 @@
   </div>
 
   <div style="width: 300px; text-align: center;">
-    <strong>💻 Projeto IP</strong><br/>
+    <h3 style="color: #2ea44f;">💻 Projeto IP</h3>
     <sub>Jogo interativo criado para Introdução à Programação.</sub>
     <br/><br/>
     <a href="https://github.com/AmandaTrinity/ProjetoIP">
@@ -51,7 +51,7 @@
   </div>
 
   <div style="width: 300px; text-align: center;">
-    <strong>🎬 CineMind</strong><br/>
+    <h3 style="color: #8b0000;">🎬 CineMind</h3>
     <sub>Sistema inteligente de recomendação de filmes.</sub>
     <br/><br/>
     <a href="https://github.com/lgns-cin/CineMind">
