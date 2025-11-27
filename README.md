@@ -1,79 +1,79 @@
 <div align="center">
 
-  <!-- HEADER: EFEITO AURORA BOREALIS (Liquid)
-       Usamos 'rect' para parecer uma janela de sistema, com um gradiente triplo -->
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=00F260,0575E6,8E2DE2&height=200&section=header&text=Willian%20Rupert&fontSize=80&fontAlignY=55&animation=fadeIn&fontColor=ffffff&desc=Computer%20Science%20@%20CIn-UFPE&descSize=20&descAlign=78&descAlignY=78" width="100%"/>
+<!-- HEADER: LIQUID BLUE PRO
+Usamos um gradiente 'customColorList' que vai do Azul Royal Profundo (0052D4)
+passando pelo Azul Aço (4364F7) até o Ciano Claro (6FB1FC).
+A animação 'soft' dá o efeito líquido suave. -->
 
-  <br/>
-  <br/>
+<img src="https://www.google.com/search?q=https://capsule-render.vercel.app/api%3Ftype%3Dwaving%26color%3Dgradient%26customColorList%3D0052D4,4364F7,6FB1FC%26height%3D250%26section%3Dheader%26text%3DWillian%2520Rupert%26fontSize%3D70%26fontAlignY%3D40%26animation%3DfadeIn%26fontColor%3Dffffff%26desc%3DComputer%2520Science%2520%257C%2520CIn-UFPE%26descSize%3D20%26descAlign%3D50%26descAlignY%3D60" width="100%"/>
 
-  <!-- BADGES ESTILO "PILL" (Cápsulas de vidro) -->
-  <a href="https://linkedin.com/in/SEU-LINKEDIN">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010" />
-  </a>
-  <a href="mailto:SEU-EMAIL@cin.ufpe.br">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=101010" />
-  </a>
+<!-- ÍCONES SOCIAIS MINIMALISTAS (Estilo iOS Button) -->
+
+<a href="https://linkedin.com/in/SEU-LINKEDIN">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/LinkedIn-0077B5%3Fstyle%3Dfor-the-badge%26logo%3Dlinkedin%26logoColor%3Dwhite" />
+</a>
+<a href="mailto:SEU-EMAIL@cin.ufpe.br">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Email-2b3137%3Fstyle%3Dfor-the-badge%26logo%3Dgmail%26logoColor%3Dwhite" />
+</a>
 
 </div>
 
-<br/>
+<!-- PROJETOS: ESTILO GLASS DARK -->
 
-<!-- WIDGETS AREA (Estilo Grid do iPad) -->
-<div align="center">
-  <h3> Featured Projects</h3>
-</div>
+<!-- Títulos em Azul Apple (007AFF) e ícones em Ciano (5AC8FA) -->
 
 <div align="center">
+<h3>⚡ Projetos Recentes</h3>
+
+
+
+
+
 <table>
-  <tr>
-    <!-- CARD 1 -->
-    <td align="center" width="50%">
-      <a href="https://github.com/willianrupert/NOME-DO-PROJETO-1">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=willianrupert&repo=NOME-DO-PROJETO-1&theme=transparent&hide_border=true&title_color=00F260&text_color=fff&icon_color=0575E6" />
-      </a>
-    </td>
-    <!-- CARD 2 -->
-    <td align="center" width="50%">
-      <a href="https://github.com/willianrupert/NOME-DO-PROJETO-2">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=willianrupert&repo=NOME-DO-PROJETO-2&theme=transparent&hide_border=true&title_color=00F260&text_color=fff&icon_color=0575E6" />
-      </a>
-    </td>
-  </tr>
+<tr>
+<td align="center" width="50%">
+<a href="https://github.com/willianrupert/NOME-DO-PROJETO-1">
+<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dwillianrupert%26repo%3DNOME-DO-PROJETO-1%26theme%3Dtransparent%26hide_border%3Dtrue%26title_color%3D007AFF%26text_color%3Dced6e0%26icon_color%3D5AC8FA" />
+</a>
+</td>
+<td align="center" width="50%">
+<a href="https://github.com/willianrupert/NOME-DO-PROJETO-2">
+<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3Dwillianrupert%26repo%3DNOME-DO-PROJETO-2%26theme%3Dtransparent%26hide_border%3Dtrue%26title_color%3D007AFF%26text_color%3Dced6e0%26icon_color%3D5AC8FA" />
+</a>
+</td>
+</tr>
 </table>
 </div>
 
-<br/>
+<!-- ANALYTICS: VISUAL LIMPO E PROFISSIONAL -->
 
-<!-- CONTROL CENTER (Stats) -->
 <div align="center">
-  <h3> Command Center</h3>
-  
-  <!-- Combinando cores Neon (Mint e Blue) sobre fundo transparente para contraste máximo -->
-  <img src="https://github-readme-stats.vercel.app/api?username=willianrupert&show_icons=true&theme=transparent&hide_border=true&title_color=00F260&text_color=ffffff&icon_color=0575E6&count_private=true&bg_color=0d1117" height="160" />
-  
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=willianrupert&layout=donut&theme=transparent&hide_border=true&title_color=00F260&text_color=ffffff" height="160" />
+<h3>📊 Performance</h3>
+
+<!-- STATS GERAIS -->
+
+<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3Dwillianrupert%26show_icons%3Dtrue%26theme%3Dtransparent%26hide_border%3Dtrue%26title_color%3D007AFF%26text_color%3Dced6e0%26icon_color%3D5AC8FA%26count_private%3Dtrue" height="150" />
+
+<!-- LINGUAGENS (DONUT CHART) -->
+
+<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3Dwillianrupert%26layout%3Ddonut%26theme%3Dtransparent%26hide_border%3Dtrue%26title_color%3D007AFF%26text_color%3Dced6e0" height="150" />
 
 </div>
 
-<!-- STREAK - Estilo Barra de Progresso do iOS -->
+<!-- STREAK (Cor Azul Elétrico para combinar com o tema) -->
+
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=willianrupert&theme=transparent&hide_border=true&ring=00F260&fire=00F260&currStreakLabel=00F260&sideNums=ffffff&dates=bfbfbf" />
+<img src="https://www.google.com/search?q=https://github-readme-streak-stats.herokuapp.com/%3Fuser%3Dwillianrupert%26theme%3Dtransparent%26hide_border%3Dtrue%26ring%3D007AFF%26fire%3D007AFF%26currStreakLabel%3D5AC8FA%26dates%3Dced6e0%26sideNums%3Dced6e0" />
 </div>
 
-<br/>
-<br/>
+<!-- TECH STACK (DOCK) -->
 
-<!-- DOCK FLUTUANTE (Skill Icons)
-     Isso aqui é o "pulo do gato". Usamos a lib 'skillicons' que tem ícones
-     com brilho e sombra idênticos aos apps do Mac/iPad. -->
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,react,html,css,js,git,github,linux,c&theme=dark&perline=10" />
+<img src="https://www.google.com/search?q=https://skillicons.dev/icons%3Fi%3Dpython,java,react,html,css,js,git,github,c,linux%26theme%3Ddark%26perline%3D10" />
 </div>
 
-<br/>
+<!-- SNAKE ANIMATION -->
 
-<!-- SNAKE COM PALETA "NEON DREAM" -->
 <div align="center">
-  <img src="https://github.com/willianrupert/willianrupert/blob/output/github-contribution-grid-snake.svg" width="100%" />
+<img src="https://github.com/willianrupert/willianrupert/blob/output/github-contribution-grid-snake.svg" width="100%" />
 </div>
