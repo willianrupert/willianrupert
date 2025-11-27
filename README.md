@@ -17,7 +17,7 @@
     </a>
     &nbsp;
     <a href="https://SEU-LINKTREE-OU-PORTFÓLIO.com">
-      <img src="https://img.shields.io/badge/Portfolio-6FB1FC?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" height="32"/>
+      <img src="https://img.shields.io/badge/Portfolio-6FB1FC?style=for-the-badge&logo=telescope&logoColor=white" alt="Portfolio" height="32"/>
     </a>
   </p>
 
@@ -69,8 +69,6 @@
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=willianrupert&show_icons=true&theme=transparent&hide_border=true&title_color=6FB1FC&text_color=ffffff&icon_color=6FB1FC" alt="GitHub stats" width="48%" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=willianrupert&layout=donut&theme=transparent&hide_border=true&title_color=6FB1FC&text_color=ffffff" alt="Top languages" width="40%" />
-  <br/><br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=willianrupert&theme=transparent&hide_border=true&ring=4364F7&fire=6FB1FC&currStreakLabel=6FB1FC" alt="GitHub streak" width="70%" />
 </div>
 
 <br/>
