@@ -2,8 +2,8 @@
 
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0052D4,4364F7,6FB1FC&height=260&section=header&text=Willian%20Rupert&fontSize=70&fontAlignY=40&animation=fadeIn&fontColor=ffffff&desc=Computer%20Science%20·%20CIn-UFPE&descSize=22&descAlignY=65" alt="banner" width="100%" />
 
-  <h2>Bem-vindo ao meu Universo Tecnológico 👨‍💻</h2>
-  <p>Desenvolvedor apaixonado por IA, visualização de dados, sistemas inteligentes e design elegante.<br>
+  <h2>Bem-vindo ao meu espaço Tecnológico 👨‍💻</h2>
+  <p>Desenvolvedor entusiasta de IA, visualização de dados, sistemas inteligentes e design elegante.<br>
   Busco transformar ideias em experiências digitais fluidas e intuitivas.</p>
 
   <p>
@@ -33,20 +33,20 @@
 <div align="center" style="display: flex; flex-wrap: wrap; gap: 24px; justify-content: center;">
 
   <div style="width: 300px; text-align: center;">
+    <h3 style="color: #00b4d8;">🩺 LIGIA AI Health</h3>
+    <sub>Plataforma de triagem e predição de risco cardíaco com IA.</sub>
+    <br/><br/>
+    <a href="https://github.com/willianrupert/desafio-ia-ligia">
+      <img src="assets/ligia_saude.gif" alt="LIGIA AI Health" style="width: 100%; border-radius: 8px;" />
+    </a>
+  </div>
+
+  <div style="width: 300px; text-align: center;">
     <h3 style="color: #4364F7;">🪐 NASA Exoplanet LIA</h3>
     <sub>Visualização interativa de dados de exoplanetas.</sub>
     <br/><br/>
     <a href="https://exoplanet-lia.streamlit.app/">
       <img src="assets/Nasa.gif" alt="Exoplanet LIA" style="width: 100%; border-radius: 8px;" />
-    </a>
-  </div>
-
-  <div style="width: 300px; text-align: center;">
-    <h3 style="color: #2ea44f;">💻 Projeto IP</h3>
-    <sub>Jogo interativo criado para Introdução à Programação.</sub>
-    <br/><br/>
-    <a href="https://github.com/AmandaTrinity/ProjetoIP">
-      <img src="assets/ProjetoIP.gif" alt="Projeto IP" style="width: 100%; border-radius: 8px;" />
     </a>
   </div>
 
@@ -59,21 +59,25 @@
     </a>
   </div>
 
+  <div style="width: 300px; text-align: center;">
+    <h3 style="color: #2ea44f;">💻 Projeto IP</h3>
+    <sub>Jogo interativo criado para Introdução à Programação.</sub>
+    <br/><br/>
+    <a href="https://github.com/AmandaTrinity/ProjetoIP">
+      <img src="assets/ProjetoIP.gif" alt="Projeto IP" style="width: 100%; border-radius: 8px;" />
+    </a>
+  </div>
+
 </div>
 
 ---
 
-## 📊 Estatísticas
+## 📊 Contribuições & Atividade
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=willianrupert&show_icons=true&theme=transparent&hide_border=true&title_color=6FB1FC&text_color=ffffff&icon_color=6FB1FC" alt="GitHub stats" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=willianrupert&layout=compact&theme=transparent&hide_border=true&title_color=6FB1FC&text_color=ffffff" alt="Top languages" height="150" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/willianrupert/willianrupert/output/github-contribution-grid-snake.svg" alt="Contribution grid" width="100%" />
+  <br/>
+  <img src="https://ghchart.rshah.org/4364F7/willianrupert" alt="Willian Rupert's Github Chart" width="100%" />
+  <br/><br/>
 </div>
 
 ---
