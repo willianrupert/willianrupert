@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- HEADER PREMIUM -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0052D4,4364F7,6FB1FC&height=280&section=header&text=Willian%20Rupert&fontSize=72&fontAlignY=38&animation=fadeIn&fontColor=ffffff&desc=Computer%20Science%20·%20CIn-UFPE%20·%20AI%20Engineer&descSize=22&descAlignY=60" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&colorStart=0052D4&colorEnd=4364F7&height=280&section=header&text=Willian%20Rupert&fontSize=72&fontAlignY=38&animation=fadeIn&fontColor=ffffff&desc=Computer%20Science%20·%20CIn-UFPE%20·%20AI%20Engineer&descSize=22&descAlignY=60&v=2" width="100%"/>
 
   <h2>Building Intelligent Systems & Elegant Digital Experiences</h2>
 
@@ -119,6 +119,6 @@
   <h3 style="color:#4364F7;">Engineering intelligence into reality.</h3>
 
   <!-- FOOTER PREMIUM -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0052D4,4364F7,6FB1FC&height=120&section=footer" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&colorStart=0052D4&colorEnd=4364F7&height=120&section=footer&v=2" width="100%"/>
 
 </div>
