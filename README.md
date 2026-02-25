@@ -42,7 +42,7 @@
 
   <div style="width: 300px; text-align: center;">
     <h3 style="color: #4364F7;">💳 Fraud Detection & XAI</h3>
-    <sub>Robust fraud detection using Stacking Ensembles with model explainability.</sub>
+    <sub>Robust fraud detection using Stacking Ensembles with model explainability. IEEE format.</sub>
     <br/><br/>
     <a href="https://github.com/willianrupert/projeto_ml_ligia">
       <img src="assets/XAI.gif" style="width: 100%; border-radius: 12px;" />
@@ -51,7 +51,7 @@
 
   <div style="width: 300px; text-align: center;">
     <h3 style="color: #4364F7;">🔌 Smart PSU – ESP32 S3</h3>
-    <sub>Embedded energy management system powered by ESP32-S3 LCD.</sub>
+    <sub>Embedded energy management system for a DATCENTER powered by ESP32-S3 LCD.</sub>
     <br/><br/>
     <a href="https://github.com/willianrupert/ProjetoPSU">
       <img src="assets/ProjetoPSU.gif" style="width: 100%; border-radius: 12px;" />
