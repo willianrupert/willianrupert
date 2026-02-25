@@ -22,7 +22,7 @@
       <img src="https://img.shields.io/badge/Email-0f172a?style=for-the-badge&logo=gmail&logoColor=white" height="32"/>
     </a>
     &nbsp;
-    <a href="https://willianrupert.github.io">
+    <a href="https://github.com/willianrupert/willian-rupert-portfolio">
       <img src="https://img.shields.io/badge/Portfolio-4364F7?style=for-the-badge&logo=telescope&logoColor=white" height="32"/>
     </a>
   </p>
