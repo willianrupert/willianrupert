@@ -32,14 +32,14 @@
   <path d="M12 29 a19 19 0 0 0 0 26" class="onda" style="animation-delay:.25s"/>
 </g>
 </g>
-<g transform="translate(479.2 44)">
-  <rect width="120.8" height="28" rx="14" fill="none" stroke-width="1.5" style="stroke:var(--line)"/>
-  <circle cx="15" cy="14" r="4" class="dot" style="fill:var(--ok)"/>
-  <text x="26" y="19" class="s" font-size="13" font-weight="500" style="fill:var(--muted)">em uso no CIn</text>
+<g transform="translate(461.8 44)">
+  <rect width="138.2" height="28" rx="14" fill="none" stroke-width="1.5" style="stroke:var(--line)"/>
+  <circle cx="17" cy="14" r="4" class="dot" style="fill:var(--ok)"/>
+  <text x="75.1" y="19" text-anchor="middle" class="s" font-size="13" font-weight="500" style="fill:var(--muted)">em uso no CIn</text>
 </g>
 <text x="40" y="162" class="s" font-size="30" font-weight="650" letter-spacing="-0.6" style="fill:var(--text)">Adsum</text>
 <text class="s" font-size="18" style="fill:var(--muted)"><tspan x="40" y="196">Chamada por crachá, sem servidor, sem conta,</tspan><tspan x="40" y="222">sem login. A planilha sai pronta no fim da aula.</tspan></text>
 <line x1="40" y1="276" x2="600" y2="276" stroke-width="1.5" style="stroke:var(--line)"/>
-<text x="40" y="306" class="m" font-size="14" style="fill:var(--faint)">PWA offline · React · TypeScript</text>
+<text x="40" y="306" class="m" font-size="14" style="fill:var(--faint)">PWA offline · React · TypeScript · 1000+ testes</text>
 <text x="600" y="307" text-anchor="end" class="s" font-size="20" font-weight="600" style="fill:var(--accent)">→</text>
 </svg>

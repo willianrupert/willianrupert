@@ -227,7 +227,7 @@ def glifo(nome, c):
 def cartao(nome, titulo, linhas, rodape, status, c):
     W, H = 640, 340
     texto = "".join(f'<tspan x="40" y="{196 + i * 26}">{esc(l)}</tspan>' for i, l in enumerate(linhas))
-    pill_w = 22 + len(status) * 7.6
+    pill_w = 42 + len(status) * 7.4
     return f'''
 <svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="{esc(titulo)}">
 <style>
@@ -253,8 +253,8 @@ def cartao(nome, titulo, linhas, rodape, status, c):
 </g>
 <g transform="translate({W - 40 - pill_w} 44)">
   <rect width="{pill_w}" height="28" rx="14" fill="none" stroke="{c['line']}" stroke-width="1.5"/>
-  <circle cx="15" cy="14" r="4" fill="{c['ok']}" class="dot"/>
-  <text x="26" y="19" class="s" font-size="13" font-weight="500" fill="{c['muted']}">{esc(status)}</text>
+  <circle cx="17" cy="14" r="4" fill="{c['ok']}" class="dot"/>
+  <text x="{pill_w / 2 + 6}" y="19" text-anchor="middle" class="s" font-size="13" font-weight="500" fill="{c['muted']}">{esc(status)}</text>
 </g>
 <text x="40" y="162" class="s" font-size="30" font-weight="650" letter-spacing="-0.6" fill="{c['text']}">{esc(titulo)}</text>
 <text class="s" font-size="18" fill="{c['muted']}">{texto}</text>
@@ -266,11 +266,11 @@ def cartao(nome, titulo, linhas, rodape, status, c):
 
 CARTOES = [
     ("adsum", "Adsum", ["Chamada por crachá, sem servidor, sem conta,", "sem login. A planilha sai pronta no fim da aula."],
-     "PWA offline · React · TypeScript", "em uso no CIn"),
+     "PWA offline · React · TypeScript · 1000+ testes", "em uso no CIn"),
     ("pendant", "RLight Pendant", ["A sua CNC, ao vivo, na palma da mão: ver,", "mexer e confiar numa fresadora FluidNC."],
      "PWA · TypeScript estrito · 500+ testes", "na oficina"),
     ("portaria", "Portaria", ["Encomendas recebidas sem porteiro: o entregador", "digita um código, a casa faz o resto."],
-     "ESP32-S3 · Python · FastAPI · Node", "em produção"),
+     "ESP32-S3 · Python · FastAPI · Node · 800+ testes", "em produção"),
     ("caixa", "Caixa d'água", ["Bombeamento que sobrevive a apagões, erro", "humano e sensor rompido. Um botão, um LED."],
      "ESP32 · ESPHome · Home Assistant", "em produção"),
 ]

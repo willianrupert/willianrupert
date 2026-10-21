@@ -29,10 +29,10 @@
 </g>
 <g fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="stroke:var(--accent)"><rect x="22" y="18" width="40" height="48" rx="7"/><path d="M34 12 h16"/></g>
 </g>
-<g transform="translate(494.4 44)">
-  <rect width="105.6" height="28" rx="14" fill="none" stroke-width="1.5" style="stroke:var(--line)"/>
-  <circle cx="15" cy="14" r="4" class="dot" style="fill:var(--ok)"/>
-  <text x="26" y="19" class="s" font-size="13" font-weight="500" style="fill:var(--muted)">em produção</text>
+<g transform="translate(476.6 44)">
+  <rect width="123.4" height="28" rx="14" fill="none" stroke-width="1.5" style="stroke:var(--line)"/>
+  <circle cx="17" cy="14" r="4" class="dot" style="fill:var(--ok)"/>
+  <text x="67.7" y="19" text-anchor="middle" class="s" font-size="13" font-weight="500" style="fill:var(--muted)">em produção</text>
 </g>
 <text x="40" y="162" class="s" font-size="30" font-weight="650" letter-spacing="-0.6" style="fill:var(--text)">Caixa d'água</text>
 <text class="s" font-size="18" style="fill:var(--muted)"><tspan x="40" y="196">Bombeamento que sobrevive a apagões, erro</tspan><tspan x="40" y="222">humano e sensor rompido. Um botão, um LED.</tspan></text>
