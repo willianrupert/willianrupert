@@ -103,8 +103,8 @@ fotografa e avisa o morador com a foto da entrega.
 - **Nenhuma entrega se perde por falta de internet.** Tudo é gravado primeiro no
   local e sobe para a nuvem por uma fila com confirmação.
 - **Interlock.** A porta de casa nunca abre com a da rua aberta.
-- **Hardware burro, software inteligente.** O ESP32-S3 só lê sensores e aciona
-  travas; a lógica roda em Python, coberta por testes.
+- **O hardware sente, o software decide.** O ESP32-S3 só lê sensores e aciona
+  travas; toda a lógica roda em Python, coberta por testes.
 - **Deploy seguro.** A portaria só se atualiza quando está ociosa.
 
 <sub>Código privado.</sub>
