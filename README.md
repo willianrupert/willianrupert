@@ -137,6 +137,7 @@ sistema nem percebe.
 | | | |
 |:--|:--|:--|
 | **[Nobreak inteligente](https://github.com/willianrupert/ProjetoPSU)** | Nobreak para o homelab, com um laço crítico de hardware separado do laço de interface: a tela travar nunca queima o equipamento. | `ESP32-S3` `ESPHome` `C++` `LVGL` |
+| **Gerador solar** | Backup solar de 1,1 kW para a rede crítica da casa, câmeras e Portaria incluídas. No apagão, a troca de fonte é verificada, e um OLED mostra um número por vez, legível mesmo sem Wi-Fi. | `ESP32-S3` `ESPHome` `Home Assistant` |
 | **[pH e ORP sem nuvem](https://github.com/willianrupert/ProjetoPH_ORP)** | Engenharia reversa do protocolo serial Tuya de um monitor de qualidade de água. O módulo Wi-Fi original deu lugar a um ESP32-C3. | `ESP32-C3` `ESPHome` `UART` |
 | **CNC RLight** | Migração de uma fresadora de doze anos do Mach3 para o FluidNC, preservando as telas e macros do construtor. Migrar exatamente primeiro, otimizar depois. | `FluidNC` `ESP32` `G-code` |
 | **Homelab** | Proxmox e Home Assistant em casa, protegidos pelo nobreak acima, e serviços próprios na Oracle Cloud. | `Proxmox` `Linux` `Nginx` |
@@ -198,6 +199,8 @@ flowchart LR
     nb["Nobreak<br/>ESP32-S3"] --> px["Homelab<br/>Proxmox"] --> ha["Home Assistant"]
     ha --- cx["Caixa d'água<br/>ESPHome"]
     ha --- ph["pH e ORP<br/>ESP32-C3"]
+    sol["Gerador solar<br/>ESP32-S3"] --- ha
+    sol -. energia .-> hub
     hub["Portaria<br/>ESP32-S3"] --> py["Python<br/>FastAPI"] --> nv["Nuvem<br/>PWA"]
   end
 ```
