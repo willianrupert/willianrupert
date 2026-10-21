@@ -46,7 +46,7 @@ def hero(t, c):
         f'<line x1="{x}" y1="{y1}" x2="{x}" y2="{y2}" class="pino"/>'
         for x in range(935, 1030, 18) for (y1, y2) in ((135, 127), (285, 293)))
     return f'''
-<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Willian Rupert — Do silício à sala de aula">
+<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Willian Rupert — Do silício a quem usa">
 <defs>
   <radialGradient id="glow" cx="78%" cy="95%" r="60%">
     <stop offset="0" stop-color="{c['accent']}" stop-opacity="{c['glow']}"/>
