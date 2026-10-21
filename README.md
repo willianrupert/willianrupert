@@ -17,8 +17,8 @@
 
 <br>
 
-Estudo Ciência da Computação no Centro de Informática da UFPE e monto eletrônica há
-mais de doze anos. O que mais gosto de construir fica na fronteira entre as duas
+Estudo Ciência da Computação no Centro de Informática da UFPE e mexo com eletrônica
+desde sempre. O que mais gosto de construir fica na fronteira entre as duas
 coisas: um ESP32 que precisa sobreviver a um apagão, um app que um professor abre no
 meio da aula, uma tela de oficina que precisa dizer a verdade sobre a máquina.
 
