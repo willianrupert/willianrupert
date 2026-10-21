@@ -7,11 +7,11 @@
 
 <br><br>
 
+<a href="https://rlight.com.br"><b>rlight.com.br</b></a>
+&nbsp;&nbsp;·&nbsp;&nbsp;
 <a href="https://www.linkedin.com/in/willianrupert"><b>LinkedIn</b></a>
 &nbsp;&nbsp;·&nbsp;&nbsp;
 <a href="mailto:wnrj@cin.ufpe.br"><b>wnrj@cin.ufpe.br</b></a>
-&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="https://willianrupert.github.io"><b>Site</b></a>
 
 </div>
 
@@ -24,7 +24,8 @@ meio da aula, uma tela de oficina que precisa dizer a verdade sobre a máquina.
 
 Meu jeito de trabalhar cabe numa frase: **decidir o que importa agora e esconder o
 resto atrás de bons padrões.** Testes contra hardware de verdade, falhas que avisam
-em vez de calar, e nada de complexidade que o usuário não pediu.
+em vez de calar, e nada de complexidade que o usuário não pediu. É o que faço no
+[**RLight**](https://rlight.com.br), o meu estúdio de engenharia.
 
 <br>
 
