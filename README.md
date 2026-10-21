@@ -7,7 +7,7 @@
 
 <br><br>
 
-<a href="https://rlight.com.br"><b>rlight.com.br</b></a>
+<a href="https://rlight.com.br"><img src="assets/rlight.svg" height="18" align="top" alt=""> <b>rlight.com.br</b></a>
 &nbsp;&nbsp;·&nbsp;&nbsp;
 <a href="https://www.linkedin.com/in/willianrupert"><b>LinkedIn</b></a>
 &nbsp;&nbsp;·&nbsp;&nbsp;
