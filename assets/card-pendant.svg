@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="340" viewBox="0 0 640 340" role="img" aria-label="RLight Pendant">
+<style>
+  :root{--card:#ffffff;--line:#e3e3e8;--tint:#e8f2fd;--ok:#1fa246;--muted:#6e6e73;--text:#1d1d1f;--faint:#a1a1a6;--accent:#0071e3;--bg:#fbfbfd}
+  @media (prefers-color-scheme: dark){:root{--card:#131316;--line:#26262b;--tint:#0b2540;--ok:#30d158;--muted:#a1a1a6;--text:#f5f5f7;--faint:#6e6e73;--accent:#2997ff;--bg:#0b0b0d}}
+  .s{font-family:-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif}
+  .m{font-family:'SF Mono', SFMono-Regular, ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace}
+  .onda{animation:onda 2.2s ease-out infinite}
+  @keyframes onda{0%{opacity:0}20%{opacity:1}100%{opacity:0;transform:translateX(-6px)}}
+  .mira{animation:mira 6s ease-in-out infinite}
+  @keyframes mira{0%,100%{transform:translate(0,0)}25%{transform:translate(6px,-10px)}50%{transform:translate(-5px,-4px)}75%{transform:translate(4px,12px)}}
+  .cai{animation:cai 3.2s cubic-bezier(.3,.6,.3,1) infinite}
+  @keyframes cai{0%{transform:translateY(-6px);opacity:0}20%{opacity:1}60%,85%{transform:translateY(12px);opacity:1}100%{transform:translateY(12px);opacity:0}}
+  .agua{animation:agua 2.6s linear infinite, nivel 9s ease-in-out infinite}
+  @keyframes agua{to{transform:translateX(-32px)}}
+  @keyframes nivel{0%,100%{translate:0 6px}50%{translate:0 -10px}}
+  .led,.dot{animation:pisca 2.4s ease-in-out infinite}
+  @keyframes pisca{0%,100%{opacity:.35}50%{opacity:1}}
+  @media (prefers-reduced-motion: reduce){*{animation:none!important;opacity:1!important}}
+</style>
+<rect x="1" y="1" width="638" height="338" rx="24" stroke-width="2" style="fill:var(--card);stroke:var(--line)"/>
+<g transform="translate(40 36)">
+  <rect width="84" height="84" rx="20" style="fill:var(--tint)"/>
+  
+<g fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="stroke:var(--accent)">
+  <rect x="24" y="12" width="36" height="58" rx="7"/>
+  <path d="M37 18 h10"/>
+</g>
+<g class="mira">
+  <g fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="stroke:var(--accent)">
+    <circle cx="42" cy="42" r="7"/>
+    <path d="M42 31 v6 M42 47 v6 M31 42 h6 M47 42 h6"/>
+  </g>
+</g>
+</g>
+<g transform="translate(502.0 44)">
+  <rect width="98.0" height="28" rx="14" fill="none" stroke-width="1.5" style="stroke:var(--line)"/>
+  <circle cx="15" cy="14" r="4" class="dot" style="fill:var(--ok)"/>
+  <text x="26" y="19" class="s" font-size="13" font-weight="500" style="fill:var(--muted)">na oficina</text>
+</g>
+<text x="40" y="162" class="s" font-size="30" font-weight="650" letter-spacing="-0.6" style="fill:var(--text)">RLight Pendant</text>
+<text class="s" font-size="18" style="fill:var(--muted)"><tspan x="40" y="196">A sua CNC, ao vivo, na palma da mão: ver,</tspan><tspan x="40" y="222">mexer e confiar numa fresadora FluidNC.</tspan></text>
+<line x1="40" y1="276" x2="600" y2="276" stroke-width="1.5" style="stroke:var(--line)"/>
+<text x="40" y="306" class="m" font-size="14" style="fill:var(--faint)">PWA · TypeScript estrito · 500+ testes</text>
+<text x="600" y="307" text-anchor="end" class="s" font-size="20" font-weight="600" style="fill:var(--accent)">→</text>
+</svg>

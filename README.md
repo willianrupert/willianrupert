@@ -40,10 +40,10 @@ em vez de calar, e nada de complexidade que o usuário não pediu.
 Quatro sistemas que outras pessoas usam todos os dias.
 
 <p align="center">
-<a href="https://github.com/willianrupert/adsum"><img src="assets/card-adsum-light.svg#gh-light-mode-only" width="49%" alt="Adsum: chamada por crachá, sem servidor"></a><a href="https://github.com/willianrupert/adsum"><img src="assets/card-adsum-dark.svg#gh-dark-mode-only" width="49%" alt="Adsum: chamada por crachá, sem servidor"></a>
-<a href="https://github.com/willianrupert/rlight-pendant"><img src="assets/card-pendant-light.svg#gh-light-mode-only" width="49%" alt="RLight Pendant: a CNC na palma da mão"></a><a href="https://github.com/willianrupert/rlight-pendant"><img src="assets/card-pendant-dark.svg#gh-dark-mode-only" width="49%" alt="RLight Pendant: a CNC na palma da mão"></a>
-<a href="#portaria"><img src="assets/card-portaria-light.svg#gh-light-mode-only" width="49%" alt="Portaria: encomendas recebidas sem porteiro"></a><a href="#portaria"><img src="assets/card-portaria-dark.svg#gh-dark-mode-only" width="49%" alt="Portaria: encomendas recebidas sem porteiro"></a>
-<a href="https://github.com/willianrupert/caixa-dagua-esphome"><img src="assets/card-caixa-light.svg#gh-light-mode-only" width="49%" alt="Caixa d'água: bombeamento imune a apagões"></a><a href="https://github.com/willianrupert/caixa-dagua-esphome"><img src="assets/card-caixa-dark.svg#gh-dark-mode-only" width="49%" alt="Caixa d'água: bombeamento imune a apagões"></a>
+<a href="https://github.com/willianrupert/adsum"><img src="assets/card-adsum.svg" width="49%" alt="Adsum: chamada por crachá, sem servidor"></a>
+<a href="https://github.com/willianrupert/rlight-pendant"><img src="assets/card-pendant.svg" width="49%" alt="RLight Pendant: a CNC na palma da mão"></a>
+<a href="#portaria"><img src="assets/card-portaria.svg" width="49%" alt="Portaria: encomendas recebidas sem porteiro"></a>
+<a href="https://github.com/willianrupert/caixa-dagua-esphome"><img src="assets/card-caixa.svg" width="49%" alt="Caixa d'água: bombeamento imune a apagões"></a>
 </p>
 
 <p align="center"><sub>Clique em um cartão para abrir o projeto, ou abra os detalhes abaixo.</sub></p>

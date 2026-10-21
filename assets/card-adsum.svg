@@ -1,5 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="340" viewBox="0 0 640 340" role="img" aria-label="Adsum">
 <style>
+  :root{--card:#ffffff;--line:#e3e3e8;--tint:#e8f2fd;--ok:#1fa246;--muted:#6e6e73;--text:#1d1d1f;--faint:#a1a1a6;--accent:#0071e3;--bg:#fbfbfd}
+  @media (prefers-color-scheme: dark){:root{--card:#131316;--line:#26262b;--tint:#0b2540;--ok:#30d158;--muted:#a1a1a6;--text:#f5f5f7;--faint:#6e6e73;--accent:#2997ff;--bg:#0b0b0d}}
   .s{font-family:-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif}
   .m{font-family:'SF Mono', SFMono-Regular, ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace}
   .onda{animation:onda 2.2s ease-out infinite}
@@ -15,29 +17,29 @@
   @keyframes pisca{0%,100%{opacity:.35}50%{opacity:1}}
   @media (prefers-reduced-motion: reduce){*{animation:none!important;opacity:1!important}}
 </style>
-<rect x="1" y="1" width="638" height="338" rx="24" fill="#131316" stroke="#26262b" stroke-width="2"/>
+<rect x="1" y="1" width="638" height="338" rx="24" stroke-width="2" style="fill:var(--card);stroke:var(--line)"/>
 <g transform="translate(40 36)">
-  <rect width="84" height="84" rx="20" fill="#0b2540"/>
+  <rect width="84" height="84" rx="20" style="fill:var(--tint)"/>
   
-<g fill="none" stroke="#2997ff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+<g fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="stroke:var(--accent)">
   <rect x="30" y="22" width="30" height="40" rx="5"/>
   <path d="M40 22 v-6 h10 v6"/>
   <circle cx="45" cy="36" r="5"/>
   <path d="M37 50 h16 M39 55 h12"/>
 </g>
-<g fill="none" stroke="#2997ff" stroke-width="2.2" stroke-linecap="round">
+<g fill="none" stroke-width="2.2" stroke-linecap="round" style="stroke:var(--accent)">
   <path d="M18 34 a12 12 0 0 0 0 16" class="onda" style="animation-delay:0s"/>
   <path d="M12 29 a19 19 0 0 0 0 26" class="onda" style="animation-delay:.25s"/>
 </g>
 </g>
 <g transform="translate(479.2 44)">
-  <rect width="120.8" height="28" rx="14" fill="none" stroke="#26262b" stroke-width="1.5"/>
-  <circle cx="15" cy="14" r="4" fill="#30d158" class="dot"/>
-  <text x="26" y="19" class="s" font-size="13" font-weight="500" fill="#a1a1a6">em uso no CIn</text>
+  <rect width="120.8" height="28" rx="14" fill="none" stroke-width="1.5" style="stroke:var(--line)"/>
+  <circle cx="15" cy="14" r="4" class="dot" style="fill:var(--ok)"/>
+  <text x="26" y="19" class="s" font-size="13" font-weight="500" style="fill:var(--muted)">em uso no CIn</text>
 </g>
-<text x="40" y="162" class="s" font-size="30" font-weight="650" letter-spacing="-0.6" fill="#f5f5f7">Adsum</text>
-<text class="s" font-size="18" fill="#a1a1a6"><tspan x="40" y="196">Chamada por crachá, sem servidor, sem conta,</tspan><tspan x="40" y="222">sem login. A planilha sai pronta no fim da aula.</tspan></text>
-<line x1="40" y1="276" x2="600" y2="276" stroke="#26262b" stroke-width="1.5"/>
-<text x="40" y="306" class="m" font-size="14" fill="#6e6e73">PWA offline · React · TypeScript</text>
-<text x="600" y="307" text-anchor="end" class="s" font-size="20" font-weight="600" fill="#2997ff">→</text>
+<text x="40" y="162" class="s" font-size="30" font-weight="650" letter-spacing="-0.6" style="fill:var(--text)">Adsum</text>
+<text class="s" font-size="18" style="fill:var(--muted)"><tspan x="40" y="196">Chamada por crachá, sem servidor, sem conta,</tspan><tspan x="40" y="222">sem login. A planilha sai pronta no fim da aula.</tspan></text>
+<line x1="40" y1="276" x2="600" y2="276" stroke-width="1.5" style="stroke:var(--line)"/>
+<text x="40" y="306" class="m" font-size="14" style="fill:var(--faint)">PWA offline · React · TypeScript</text>
+<text x="600" y="307" text-anchor="end" class="s" font-size="20" font-weight="600" style="fill:var(--accent)">→</text>
 </svg>

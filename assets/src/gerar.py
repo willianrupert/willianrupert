@@ -293,6 +293,36 @@ for t, c in TEMAS.items():
     salvar(f"hero-{t}.svg", hero(t, c))
     salvar(f"terminal-{t}.svg", terminal(t, c))
     salvar(f"rodape-{t}.svg", rodape(t, c))
-    for args in CARTOES:
-        salvar(f"card-{args[0]}-{t}.svg", cartao(*args, c))
 print("ok", sorted(p.name for p in OUT.glob("*.svg")))
+
+
+# ---------------------------------------------------------------- cartões de tema automático
+# O GitHub não esconde mais imagens com #gh-dark-mode-only, e um <picture> dentro de
+# um link perde o link. Então cada cartão é um arquivo só, que troca de cor por
+# prefers-color-scheme dentro do próprio SVG.
+import re
+
+CHAVES = ["card", "line", "tint", "ok", "muted", "text", "faint", "accent", "bg"]
+
+
+def tema_automatico(svg):
+    def tag(m):
+        t = m.group(0)
+        vs = re.findall(r'\s(fill|stroke|stop-color)="(var\(--\w+\))"', t)
+        if not vs:
+            return t
+        t = re.sub(r'\s(fill|stroke|stop-color)="var\(--\w+\)"', "", t)
+        decl = ";".join(f"{k}:{v}" for k, v in vs)
+        if ' style="' in t:
+            return t.replace(' style="', f' style="{decl};', 1)
+        fim = "/>" if t.endswith("/>") else ">"
+        return t[: -len(fim)] + f' style="{decl}"' + fim
+    svg = re.sub(r"<[a-zA-Z][^<>]*>", tag, svg)
+    claro = ";".join(f"--{k}:{TEMAS['light'][k]}" for k in CHAVES)
+    escuro = ";".join(f"--{k}:{TEMAS['dark'][k]}" for k in CHAVES)
+    return svg.replace("<style>", f"<style>\n  :root{{{claro}}}\n  @media (prefers-color-scheme: dark){{:root{{{escuro}}}}}", 1)
+
+
+VARS = {k: f"var(--{k})" for k in CHAVES}
+for args in CARTOES:
+    salvar(f"card-{args[0]}.svg", tema_automatico(cartao(*args, VARS)))
