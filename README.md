@@ -140,7 +140,7 @@ sistema nem percebe.
 | **Gerador solar** | Backup solar de 1,1 kW para a rede crítica da casa, câmeras e Portaria incluídas. No apagão, a troca de fonte é verificada, e um OLED mostra um número por vez, legível mesmo sem Wi-Fi. | `ESP32-S3` `ESPHome` `Home Assistant` |
 | **[pH e ORP sem nuvem](https://github.com/willianrupert/ProjetoPH_ORP)** | Engenharia reversa do protocolo serial Tuya de um monitor de qualidade de água. O módulo Wi-Fi original deu lugar a um ESP32-C3. | `ESP32-C3` `ESPHome` `UART` |
 | **CNC RLight** | Migração de uma fresadora de doze anos do Mach3 para o FluidNC, preservando as telas e macros do construtor. Migrar exatamente primeiro, otimizar depois. | `FluidNC` `ESP32` `G-code` |
-| **Homelab** | Proxmox e Home Assistant em casa, protegidos pelo nobreak acima, e serviços próprios na Oracle Cloud. | `Proxmox` `Linux` `Nginx` |
+| **Infraestrutura RLight** | Um Proxmox em casa roda o Home Assistant, reconhecimento facial local e as fotos da família. Nenhuma porta aberta no roteador: tudo entra por Cloudflare Tunnel e Tailscale. Na Oracle Cloud, um bastion, um servidor ARM e um Proxmox Backup Server guardam a cópia fora de casa, incremental e deduplicada. | `Proxmox` `Home Assistant` `Cloudflare` `Tailscale` `Oracle Cloud` |
 
 ## Dados e IA
 
@@ -188,21 +188,33 @@ sistema nem percebe.
 <br>
 
 ```mermaid
-flowchart LR
-  subgraph cin["CIn-UFPE"]
-    cr["Crachá"] --> ad["Adsum<br/>PWA offline"] --> sg["SIGAA"]
-  end
-  subgraph oficina["Oficina"]
-    pd["RLight Pendant<br/>PWA"] <--> cnc["CNC RLight<br/>FluidNC"]
+flowchart TB
+  net(("Internet"))
+  subgraph oracle["Oracle Cloud"]
+    direction LR
+    amp["Ampere ARM<br/>serviços"]
+    pbs["Proxmox Backup Server<br/>cópia fora de casa"]
   end
   subgraph casa["Casa"]
-    nb["Nobreak<br/>ESP32-S3"] --> px["Homelab<br/>Proxmox"] --> ha["Home Assistant"]
+    direction LR
+    cf["Cloudflare Tunnel<br/>nenhuma porta aberta"] --> ha["Home Assistant"]
+    nb["Nobreak<br/>ESP32-S3"] --> px["Proxmox<br/>servidor local"] --> ha
+    px --- rf["Reconhecimento facial<br/>Frigate · CompreFace"] --- ha
+    sol["Gerador solar<br/>ESP32-S3"] --- ha
     ha --- cx["Caixa d'água<br/>ESPHome"]
     ha --- ph["pH e ORP<br/>ESP32-C3"]
-    sol["Gerador solar<br/>ESP32-S3"] --- ha
-    sol -. energia .-> hub
-    hub["Portaria<br/>ESP32-S3"] --> py["Python<br/>FastAPI"] --> nv["Nuvem<br/>PWA"]
+    sol -. energia .-> hub["Portaria<br/>ESP32-S3 · Python"]
   end
+  subgraph oficina["Oficina"]
+    direction LR
+    pd["RLight Pendant<br/>PWA"] <--> cnc["CNC RLight<br/>FluidNC"]
+  end
+  subgraph cin["CIn-UFPE"]
+    direction LR
+    cr["Crachá"] --> ad["Adsum<br/>PWA offline"] --> sg["SIGAA"]
+  end
+  net --> cf
+  px -. Tailscale .-> pbs
 ```
 
 </details>
