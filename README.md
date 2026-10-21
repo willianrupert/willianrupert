@@ -1,124 +1,235 @@
 <div align="center">
 
-  <!-- HEADER PREMIUM -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&colorStart=0052D4&colorEnd=4364F7&height=280&section=header&text=Willian%20Rupert&fontSize=72&fontAlignY=38&animation=fadeIn&fontColor=ffffff&desc=Computer%20Science%20·%20CIn-UFPE%20·%20AI%20Engineer&descSize=22&descAlignY=60&v=2" width="100%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img src="assets/hero-light.svg" width="100%" alt="Willian Rupert. Do silício à sala de aula.">
+</picture>
 
-  <h2>Building Intelligent Systems & Elegant Digital Experiences</h2>
+<br><br>
 
-  <p>
-    AI • Data Science • Embedded Systems • Human-Centered Design <br>
-    Transformando complexidade em soluções inteligentes, visuais e eficientes.
-  </p>
-
-  <br/>
-
-  <!-- SOCIAL BADGES -->
-  <p>
-    <a href="https://linkedin.com/in/willianrupert">
-      <img src="https://img.shields.io/badge/LinkedIn-0052D4?style=for-the-badge&logo=linkedin&logoColor=white" height="32"/>
-    </a>
-    &nbsp;
-    <a href="mailto:wnrj@cin.ufpe.br">
-      <img src="https://img.shields.io/badge/Email-0f172a?style=for-the-badge&logo=gmail&logoColor=white" height="32"/>
-    </a>
-    &nbsp;
-    <a href="https://github.com/willianrupert/willian-rupert-portfolio">
-      <img src="https://img.shields.io/badge/Portfolio-4364F7?style=for-the-badge&logo=telescope&logoColor=white" height="32"/>
-    </a>
-  </p>
-
-  <br/>
-
-  <!-- TECH STACK -->
-  <img src="https://skillicons.dev/icons?i=python,js,react,cpp,git,github,linux,docker&theme=dark&perline=8" />
+<a href="https://www.linkedin.com/in/willianrupert"><b>LinkedIn</b></a>
+&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="mailto:wnrj@cin.ufpe.br"><b>wnrj@cin.ufpe.br</b></a>
+&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="https://willianrupert.github.io"><b>Site</b></a>
 
 </div>
 
----
+<br>
 
-# 🚀 Featured Projects
+Estudo Ciência da Computação no Centro de Informática da UFPE e monto eletrônica há
+mais de doze anos. O que mais gosto de construir fica na fronteira entre as duas
+coisas: um ESP32 que precisa sobreviver a um apagão, um app que um professor abre no
+meio da aula, uma tela de oficina que precisa dizer a verdade sobre a máquina.
 
-<div align="center" style="display: flex; flex-wrap: wrap; gap: 24px; justify-content: center;">
+Meu jeito de trabalhar cabe numa frase: **decidir o que importa agora e esconder o
+resto atrás de bons padrões.** Testes contra hardware de verdade, falhas que avisam
+em vez de calar, e nada de complexidade que o usuário não pediu.
 
-  <div style="width: 300px; text-align: center;">
-    <h3 style="color: #4364F7;">💳 Fraud Detection & XAI</h3>
-    <sub>Robust fraud detection using Stacking Ensembles with model explainability. IEEE format.</sub>
-    <br/><br/>
-    <a href="https://github.com/willianrupert/projeto_ml_ligia">
-      <img src="assets/XAI.gif" style="width: 100%; border-radius: 12px;" />
-    </a>
-  </div>
+<br>
 
-  <div style="width: 300px; text-align: center;">
-    <h3 style="color: #4364F7;">🔌 Smart PSU – ESP32 S3</h3>
-    <sub>Embedded energy management system powered by ESP32-S3 LCD for a domestic DATCENTER.</sub>
-    <br/><br/>
-    <a href="https://github.com/willianrupert/ProjetoPSU">
-      <img src="assets/ProjetoPSU.gif" style="width: 100%; border-radius: 12px;" />
-    </a>
-  </div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-dark.svg">
+  <img src="assets/terminal-light.svg" width="100%" alt="Terminal: whoami, o que está em produção e no que estou trabalhando agora.">
+</picture>
 
-  <div style="width: 300px; text-align: center;">
-    <h3 style="color: #4364F7;">🩺 LIGIA AI Health</h3>
-    <sub>AI-powered cardiac risk prediction and intelligent triage platform.</sub>
-    <br/><br/>
-    <a href="https://github.com/willianrupert/desafio-ia-ligia">
-      <img src="assets/ligia_saude.gif" style="width: 100%; border-radius: 12px;" />
-    </a>
-  </div>
+<br><br>
 
-  <div style="width: 300px; text-align: center;">
-    <h3 style="color: #4364F7;">🪐 NASA Exoplanet LIA</h3>
-    <sub>Interactive visualization of exoplanet datasets.</sub>
-    <br/><br/>
-    <a href="https://exoplanet-lia.streamlit.app/">
-      <img src="assets/Nasa.gif" style="width: 100%; border-radius: 12px;" />
-    </a>
-  </div>
+## Em produção
 
-  <div style="width: 300px; text-align: center;">
-    <h3 style="color: #4364F7;">🎬 CineMind</h3>
-    <sub>Intelligent movie recommendation engine.</sub>
-    <br/><br/>
-    <a href="https://github.com/lgns-cin/CineMind">
-      <img src="assets/CineMind.gif" style="width: 100%; border-radius: 12px;" />
-    </a>
-  </div>
+Quatro sistemas que outras pessoas usam todos os dias.
 
-  <div style="width: 300px; text-align: center;">
-    <h3 style="color: #4364F7;">💻 Projeto IP</h3>
-    <sub>Interactive game built for Introduction to Programming.</sub>
-    <br/><br/>
-    <a href="https://github.com/AmandaTrinity/ProjetoIP">
-      <img src="assets/ProjetoIP.gif" style="width: 100%; border-radius: 12px;" />
-    </a>
-  </div>
+<p align="center">
+<a href="https://github.com/willianrupert/adsum"><img src="assets/card-adsum-light.svg#gh-light-mode-only" width="49%" alt="Adsum: chamada por crachá, sem servidor"></a><a href="https://github.com/willianrupert/adsum"><img src="assets/card-adsum-dark.svg#gh-dark-mode-only" width="49%" alt="Adsum: chamada por crachá, sem servidor"></a>
+<a href="https://github.com/willianrupert/rlight-pendant"><img src="assets/card-pendant-light.svg#gh-light-mode-only" width="49%" alt="RLight Pendant: a CNC na palma da mão"></a><a href="https://github.com/willianrupert/rlight-pendant"><img src="assets/card-pendant-dark.svg#gh-dark-mode-only" width="49%" alt="RLight Pendant: a CNC na palma da mão"></a>
+<a href="#portaria"><img src="assets/card-portaria-light.svg#gh-light-mode-only" width="49%" alt="Portaria: encomendas recebidas sem porteiro"></a><a href="#portaria"><img src="assets/card-portaria-dark.svg#gh-dark-mode-only" width="49%" alt="Portaria: encomendas recebidas sem porteiro"></a>
+<a href="https://github.com/willianrupert/caixa-dagua-esphome"><img src="assets/card-caixa-light.svg#gh-light-mode-only" width="49%" alt="Caixa d'água: bombeamento imune a apagões"></a><a href="https://github.com/willianrupert/caixa-dagua-esphome"><img src="assets/card-caixa-dark.svg#gh-dark-mode-only" width="49%" alt="Caixa d'água: bombeamento imune a apagões"></a>
+</p>
 
-</div>
+<p align="center"><sub>Clique em um cartão para abrir o projeto, ou abra os detalhes abaixo.</sub></p>
 
----
+<details>
+<summary><b>Adsum</b>&nbsp; · &nbsp;por que uma chamada sem servidor</summary>
+<br>
 
-# 📊 Activity & Contributions
+Feito com o **Prof. Paulo Freitas** para o CIn-UFPE e em uso em sala de aula. O aluno
+encosta o crachá, a presença é registrada, e no fim da aula existe uma planilha
+pronta para o SIGAA.
 
-<div align="center">
+- **A pasta é a verdade.** Os dados ficam numa pasta do computador do professor; o
+  navegador é só cache. "Dados 100% locais" não pode virar "perder tudo".
+- **O leitor é um teclado.** O dongle USB digita o crachá. O app separa rajada de
+  máquina de digitação humana pelo ritmo das teclas.
+- **Testado com hardware de verdade.** Um ESP32-S3 se passando por teclado USB
+  simulou uma turma de 200 pessoas: todas as leituras registradas.
+- **Uma tela que não pergunta o que já podia saber.** Numa fila de cinquenta
+  alunos, cada pergunta é uma pessoa esperando.
 
-  <img src="https://github-readme-stats.vercel.app/api?username=willianrupert&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000" height="170"/>
+[Abrir o app](https://willianrupert.github.io/adsum/) ·
+[Ver todas as telas](https://willianrupert.github.io/adsum/#/vitrine) ·
+[Código](https://github.com/willianrupert/adsum)
 
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=willianrupert&theme=tokyonight&hide_border=true&background=00000000" height="170"/>
+</details>
 
-  <br/><br/>
+<details>
+<summary><b>RLight Pendant</b>&nbsp; · &nbsp;uma interface de CNC que não mente</summary>
+<br>
 
-  <img src="https://ghchart.rshah.org/4364F7/willianrupert" width="100%" />
+Interfaces de CNC costumam ser painéis com todo parâmetro na tela e todo erro em
+código. O Pendant é um PWA servido na rede da oficina, para iPhone e Android, sem loja.
 
-</div>
+- **Uma régua em vez de botões de jog.** Arraste e a máquina acompanha o dedo; um
+  peteleco segue por inércia, com o destino anunciado antes de chegar.
+- **Toque na mesa e "Ir".** O tempo restante diminui ao vivo, calculado com as
+  rampas de aceleração da própria máquina.
+- **Uma conexão honesta.** Nada é enfileirado sem sinal, e todo movimento é uma
+  intenção completa e idempotente: se o celular some, a máquina termina ou para.
+- **Nenhum valor de máquina no código.** Curso, limites e spindle vêm da placa
+  (`$CD`). Funciona com qualquer FluidNC.
 
----
+[Experimentar no navegador](https://willianrupert.github.io/rlight-pendant/) ·
+[Código](https://github.com/willianrupert/rlight-pendant)
 
-<div align="center">
+</details>
 
-  <h3 style="color:#4364F7;">Engineering intelligence into reality.</h3>
+<details id="portaria">
+<summary><b>Portaria</b>&nbsp; · &nbsp;uma casa que recebe encomendas sozinha</summary>
+<br>
 
-  <!-- FOOTER PREMIUM -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&colorStart=0052D4&colorEnd=4364F7&height=120&section=footer&v=2" width="100%"/>
+Em produção desde julho de 2026, numa casa com duas portas em série. O entregador
+digita o código da etiqueta, deixa o pacote na balança e sai; a portaria pesa,
+fotografa e avisa o morador com a foto da entrega.
 
-</div>
+- **Nenhuma entrega se perde por falta de internet.** Tudo é gravado primeiro no
+  local e sobe para a nuvem por uma fila com confirmação.
+- **Interlock.** A porta de casa nunca abre com a da rua aberta.
+- **Hardware burro, software inteligente.** O ESP32-S3 só lê sensores e aciona
+  travas; a lógica roda em Python, coberta por testes.
+- **Deploy seguro.** A portaria só se atualiza quando está ociosa.
+
+<sub>Código privado.</sub>
+
+</details>
+
+<details>
+<summary><b>Caixa d'água</b>&nbsp; · &nbsp;um tanque de guerra com um botão só</summary>
+<br>
+
+Controla o bombeamento da cisterna para a caixa d'água. A lógica de segurança roda
+inteira no ESP32; Wi-Fi e Home Assistant são só telemetria. Se a rede cair, o
+sistema nem percebe.
+
+- **Máquina de 10 estados** persistida em flash, com recuperação segura pós-apagão.
+- **Corrente fantasma:** relé desligado e corrente no motor significa contator
+  soldado, e vira alarme.
+- **Sensor supervisionado** como em central de alarme: cabo rompido ou em curto
+  é detectado.
+- **Um botão, duas intenções,** e um LED RGB em que cada estado tem uma cor.
+
+[Código](https://github.com/willianrupert/caixa-dagua-esphome)
+
+</details>
+
+<br>
+
+## Hardware e casa
+
+| | | |
+|:--|:--|:--|
+| **[Nobreak inteligente](https://github.com/willianrupert/ProjetoPSU)** | Nobreak para o homelab, com um laço crítico de hardware separado do laço de interface: a tela travar nunca queima o equipamento. | `ESP32-S3` `ESPHome` `C++` `LVGL` |
+| **[pH e ORP sem nuvem](https://github.com/willianrupert/ProjetoPH_ORP)** | Engenharia reversa do protocolo serial Tuya de um monitor de qualidade de água. O módulo Wi-Fi original deu lugar a um ESP32-C3. | `ESP32-C3` `ESPHome` `UART` |
+| **CNC RLight** | Migração de uma fresadora de doze anos do Mach3 para o FluidNC, preservando as telas e macros do construtor. Migrar exatamente primeiro, otimizar depois. | `FluidNC` `ESP32` `G-code` |
+| **Homelab** | Proxmox e Home Assistant em casa, protegidos pelo nobreak acima, e serviços próprios na Oracle Cloud. | `Proxmox` `Linux` `Nginx` |
+
+## Dados e IA
+
+| | | |
+|:--|:--|:--|
+| **[Inadimplência · Praso](https://github.com/willianrupert/Equipe-12-ML)** | Dois modelos de risco com dados reais sob confidencialidade, um de cadastro e um comportamental, e como entrariam numa política de crédito. | `Python` `Jupyter` `ROC-AUC` |
+| **[Fraude e XAI](https://github.com/willianrupert/projeto_ml_ligia)** | Detecção de fraude com stacking ensembles e explicabilidade, com artigo em formato IEEE. | `Python` `CatBoost` `XAI` |
+| **[PRF 2022–2024](https://github.com/willianrupert/Grupo-6-PRF)** | Mais de 14 milhões de autuações num data warehouse em esquema estrela. | `PostgreSQL` `dbt` `Python` |
+| **[Motor de prompts](https://github.com/willianrupert/vlab-desafio-prompt-engine)** | Gera aulas para o perfil de cada aluno e alimenta um [hub educacional fullstack](https://github.com/willianrupert/vlab-desafio-hub-fullstack). | `FastAPI` `Gemini` `React` |
+| **[Exoplanetas NASA](https://exoplanet-lia.streamlit.app/)** | Visualização interativa de dados de exoplanetas. | `Python` `Streamlit` |
+| **[CineMind](https://github.com/willianrupert/CineMind)** | Recomendação de filmes com IA generativa, feito em equipe. | `Python` `TypeScript` |
+
+<details>
+<summary><b>Na faculdade</b>&nbsp; · &nbsp;projetos de disciplina no CIn-UFPE</summary>
+<br>
+
+| | |
+|:--|:--|
+| [Redes · Grupo 13](https://github.com/willianrupert/redes-grupo-13) | Reestruturação da rede dos laboratórios do CIn: topologia, VLSM, VLANs e roteamento inter-VLAN. |
+| [E-commerce em PL/SQL](https://github.com/willianrupert/ecommerce-db-grupo-5) | Modelagem relacional, integridade referencial e consultas de negócio. |
+| [Farmácia em MongoDB](https://github.com/willianrupert/Grupo-6-MongoDB) | Modelagem de documentos e agregações no MongoDB Atlas. |
+| [Escalonador de processos](https://github.com/willianrupert/APS5-ACSO) | Simulação de Round Robin e prioridade preemptiva. |
+| [LIGIA Saúde](https://github.com/willianrupert/desafio-IA-LIGIA) | Predição de risco cardíaco e triagem. |
+| [Projeto IP](https://github.com/AmandaTrinity/ProjetoIP) | Jogo da disciplina de Introdução à Programação. |
+
+</details>
+
+<details>
+<summary><b>Galeria</b>&nbsp; · &nbsp;alguns projetos em movimento</summary>
+<br>
+
+<p align="center">
+  <img src="assets/ProjetoPSU.gif" width="49%" alt="Nobreak inteligente">
+  <img src="assets/XAI.gif" width="49%" alt="Fraude e XAI">
+  <img src="assets/Nasa.gif" width="49%" alt="Exoplanetas NASA">
+  <img src="assets/ligia_saude.gif" width="49%" alt="LIGIA Saúde">
+  <img src="assets/CineMind.gif" width="49%" alt="CineMind">
+  <img src="assets/ProjetoIP.gif" width="49%" alt="Projeto IP">
+</p>
+
+</details>
+
+<details>
+<summary><b>Mapa</b>&nbsp; · &nbsp;como os sistemas se encaixam</summary>
+<br>
+
+```mermaid
+flowchart LR
+  subgraph cin["CIn-UFPE"]
+    cr["Crachá"] --> ad["Adsum<br/>PWA offline"] --> sg["SIGAA"]
+  end
+  subgraph oficina["Oficina"]
+    pd["RLight Pendant<br/>PWA"] <--> cnc["CNC RLight<br/>FluidNC"]
+  end
+  subgraph casa["Casa"]
+    nb["Nobreak<br/>ESP32-S3"] --> px["Homelab<br/>Proxmox"] --> ha["Home Assistant"]
+    ha --- cx["Caixa d'água<br/>ESPHome"]
+    ha --- ph["pH e ORP<br/>ESP32-C3"]
+    hub["Portaria<br/>ESP32-S3"] --> py["Python<br/>FastAPI"] --> nv["Nuvem<br/>PWA"]
+  end
+```
+
+</details>
+
+<br>
+
+## Ferramentas
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,react,vite,nodejs,py,fastapi,cpp,c,arduino&theme=dark">
+    <img src="https://skillicons.dev/icons?i=ts,react,vite,nodejs,py,fastapi,cpp,c,arduino&theme=light" alt="TypeScript, React, Vite, Node.js, Python, FastAPI, C++, C, Arduino">
+  </picture>
+  <br>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=raspberrypi,linux,docker,postgres,mongodb,firebase,githubactions,git&theme=dark">
+    <img src="https://skillicons.dev/icons?i=raspberrypi,linux,docker,postgres,mongodb,firebase,githubactions,git&theme=light" alt="Raspberry Pi, Linux, Docker, PostgreSQL, MongoDB, Firebase, GitHub Actions, Git">
+  </picture>
+</p>
+
+## Atividade
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/willianrupert/willianrupert/output/github-contribution-grid-snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/willianrupert/willianrupert/output/github-contribution-grid-snake.svg" width="100%" alt="Contribuições do último ano">
+</picture>
+
+<br><br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/rodape-dark.svg">
+  <img src="assets/rodape-light.svg" width="100%" alt="o simples é belo.">
+</picture>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-label="Willian Rupert — Do silício à sala de aula">
+<defs>
+  <radialGradient id="glow" cx="78%" cy="95%" r="60%">
+    <stop offset="0" stop-color="#0071e3" stop-opacity="0.2"/>
+    <stop offset="1" stop-color="#0071e3" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="grad" x1="0" x2="1">
+    <stop offset="0" stop-color="#0071e3"/><stop offset="1" stop-color="#2fb4f5"/>
+  </linearGradient>
+  <pattern id="pontos" width="22" height="22" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1.1" fill="#a1a1a6"/>
+  </pattern>
+  <linearGradient id="fade" x1="0" x2="1"><stop offset="0.45" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity="0.55"/></linearGradient>
+  <mask id="m"><rect width="1280" height="420" fill="url(#fade)"/></mask>
+  <clipPath id="borda"><rect width="1280" height="420" rx="28"/></clipPath>
+</defs>
+<style>
+  .t{font-family:-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+  .eyebrow{font-size:14px;letter-spacing:3.2px;font-weight:600;fill:#0071e3}
+  .nome{font-size:76px;font-weight:650;letter-spacing:-2.4px;fill:#1d1d1f}
+  .lema{font-size:32px;font-weight:600;letter-spacing:-0.6px;fill:url(#grad)}
+  .corpo{font-size:18px;fill:#6e6e73}
+  .entra{animation:entra .9s cubic-bezier(.2,.7,.2,1) backwards}
+  @keyframes entra{from{opacity:0;transform:translateY(14px)}}
+  .trilha{fill:none;stroke:#e3e3e8;stroke-width:2}
+  .pulso{fill:none;stroke:#0071e3;stroke-width:2.4;stroke-linecap:round;stroke-dasharray:22 400;stroke-dashoffset:22;animation:corre 3.5s linear infinite}
+  @keyframes corre{0%{stroke-dashoffset:22;opacity:0}8%{opacity:1}70%{opacity:1}100%{stroke-dashoffset:-260;opacity:0}}
+  .no{fill:#fbfbfd;stroke:#0071e3;stroke-width:2}
+  .rot{font-family:'SF Mono', SFMono-Regular, ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace;font-size:13px;fill:#6e6e73}
+  .chip{fill:#ffffff;stroke:#e3e3e8;stroke-width:2}
+  .pino{stroke:#a1a1a6;stroke-width:3;stroke-linecap:round}
+  .chiptxt{font-family:'SF Mono', SFMono-Regular, ui-monospace, Menlo, Consolas, 'Liberation Mono', monospace;font-size:14px;font-weight:600;fill:#1d1d1f;letter-spacing:1px}
+  .led{fill:#1fa246;animation:pisca 2.4s ease-in-out infinite}
+  @keyframes pisca{0%,100%{opacity:.25}50%{opacity:1}}
+  .respira{animation:respira 7s ease-in-out infinite}
+  @keyframes respira{0%,100%{opacity:.75}50%{opacity:1}}
+  @media (prefers-reduced-motion: reduce){*{animation:none!important;opacity:1!important}}
+</style>
+<g clip-path="url(#borda)">
+  <rect width="1280" height="420" fill="#fbfbfd"/>
+  <rect width="1280" height="420" fill="url(#glow)" class="respira"/>
+  <rect width="1280" height="420" fill="url(#pontos)" mask="url(#m)" opacity=".5"/>
+</g>
+<rect x="1" y="1" width="1278" height="418" rx="27" fill="none" stroke="#e3e3e8" stroke-width="2"/>
+
+<g class="t">
+  <text x="72" y="118" class="eyebrow entra" style="animation-delay:.05s">CIÊNCIA DA COMPUTAÇÃO · CIn-UFPE · RECIFE</text>
+  <text x="68" y="198" class="nome entra" style="animation-delay:.15s">Willian Rupert</text>
+  <text x="72" y="252" class="lema entra" style="animation-delay:.3s">Do silício à sala de aula.</text>
+  <text class="corpo entra" style="animation-delay:.45s">
+    <tspan x="72" y="304">Firmware, apps e dados para coisas que precisam</tspan>
+    <tspan x="72" y="331">funcionar fora do laboratório: numa sala de aula,</tspan>
+    <tspan x="72" y="358">numa oficina, na porta de casa.</tspan>
+  </text>
+</g>
+
+<g class="entra" style="animation-delay:.6s">
+  <path d="M 905 175 H 860 L 830 145 H 790" class="trilha"/><path d="M 905 245 H 850 L 815 280 H 790" class="trilha"/><path d="M 1055 175 H 1100 L 1130 145 H 1170" class="trilha"/><path d="M 1055 245 H 1110 L 1145 280 H 1170" class="trilha"/><path d="M 980 135 V 95 L 1010 65 H 1040" class="trilha"/>
+  <path d="M 905 175 H 860 L 830 145 H 790" class="pulso" style="animation-delay:0.0s"/><path d="M 905 245 H 850 L 815 280 H 790" class="pulso" style="animation-delay:0.7s"/><path d="M 1055 175 H 1100 L 1130 145 H 1170" class="pulso" style="animation-delay:1.4s"/><path d="M 1055 245 H 1110 L 1145 280 H 1170" class="pulso" style="animation-delay:2.1s"/><path d="M 980 135 V 95 L 1010 65 H 1040" class="pulso" style="animation-delay:2.8s"/>
+  <circle cx="790.0" cy="145" r="4" class="no"/><text x="760" y="150" text-anchor="end" class="rot">firmware</text><circle cx="790.0" cy="280" r="4" class="no"/><text x="760" y="285" text-anchor="end" class="rot">sensores</text><circle cx="1170.0" cy="145" r="4" class="no"/><text x="1200" y="150" text-anchor="start" class="rot">web</text><circle cx="1170.0" cy="280" r="4" class="no"/><text x="1200" y="285" text-anchor="start" class="rot">dados</text><circle cx="1040.0" cy="65" r="4" class="no"/><text x="1062" y="70" text-anchor="start" class="rot">gente</text>
+  <line x1="935" y1="135" x2="935" y2="127" class="pino"/><line x1="935" y1="285" x2="935" y2="293" class="pino"/><line x1="953" y1="135" x2="953" y2="127" class="pino"/><line x1="953" y1="285" x2="953" y2="293" class="pino"/><line x1="971" y1="135" x2="971" y2="127" class="pino"/><line x1="971" y1="285" x2="971" y2="293" class="pino"/><line x1="989" y1="135" x2="989" y2="127" class="pino"/><line x1="989" y1="285" x2="989" y2="293" class="pino"/><line x1="1007" y1="135" x2="1007" y2="127" class="pino"/><line x1="1007" y1="285" x2="1007" y2="293" class="pino"/><line x1="1025" y1="135" x2="1025" y2="127" class="pino"/><line x1="1025" y1="285" x2="1025" y2="293" class="pino"/>
+  <rect x="905" y="135" width="150" height="150" rx="18" class="chip"/>
+  <rect x="925" y="155" width="110" height="110" rx="10" fill="none" stroke="#e3e3e8" stroke-dasharray="3 5"/>
+  <text x="980" y="214" text-anchor="middle" class="chiptxt">ESP32</text>
+  <text x="980" y="236" text-anchor="middle" class="rot" style="font-size:11px">S3 · C3</text>
+  <circle cx="1037" cy="153" r="4" class="led"/>
+</g>
+</svg>

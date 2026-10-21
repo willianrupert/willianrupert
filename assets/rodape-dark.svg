@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="120" viewBox="0 0 1280 120" role="img" aria-label="o simples é belo.">
+<defs><linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="#26262b" stop-opacity="0"/><stop offset="1" stop-color="#26262b"/></linearGradient>
+<linearGradient id="r" x1="1" x2="0"><stop offset="0" stop-color="#26262b" stop-opacity="0"/><stop offset="1" stop-color="#26262b"/></linearGradient></defs>
+<rect x="240" y="59" width="290" height="2" fill="url(#l)"/>
+<rect x="750" y="59" width="290" height="2" fill="url(#r)"/>
+<text x="640" y="68" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" font-style="italic" font-weight="500" letter-spacing="-0.2" fill="#a1a1a6">o simples é belo.</text>
+</svg>
