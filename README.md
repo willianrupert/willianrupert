@@ -147,7 +147,7 @@ sistema nem percebe.
 
 | | | |
 |:--|:--|:--|
-| **[Inadimplência · Praso](https://github.com/willianrupert/Equipe-12-ML)** | Dois modelos de risco com dados reais sob confidencialidade, um de cadastro e um comportamental, e como entrariam numa política de crédito. | `Python` `Jupyter` `ROC-AUC` |
+| **[Inadimplência](https://github.com/willianrupert/Equipe-12-ML)** | Dois modelos de risco com dados reais sob confidencialidade, um de cadastro e um comportamental, e como entrariam numa política de crédito. | `Python` `Jupyter` `ROC-AUC` |
 | **[Fraude e XAI](https://github.com/willianrupert/projeto_ml_ligia)** | Detecção de fraude com stacking ensembles e explicabilidade, com artigo em formato IEEE. | `Python` `CatBoost` `XAI` |
 | **[PRF 2022–2024](https://github.com/willianrupert/Grupo-6-PRF)** | Mais de 14 milhões de autuações num data warehouse em esquema estrela. | `PostgreSQL` `dbt` `Python` |
 | **[Motor de prompts](https://github.com/willianrupert/vlab-desafio-prompt-engine)** | Gera aulas para o perfil de cada aluno e alimenta um [hub educacional fullstack](https://github.com/willianrupert/vlab-desafio-hub-fullstack). | `FastAPI` `Gemini` `React` |
